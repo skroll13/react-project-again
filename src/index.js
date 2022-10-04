@@ -5,11 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
-import userReducer from './features/Users'
+import usersReducer from './features/Users'
 
 const store = configureStore({
   reducer:{
-    users: userReducer,
+    users: usersReducer,
   }
 })
 
